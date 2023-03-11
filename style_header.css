@@ -1,0 +1,117 @@
+/*-------------------HEADER--------------------*/
+
+a {
+    text-decoration: none;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    height: 20%px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    grid-column: 2fr;
+    background-color: #552a86;
+    color: #fff;
+}
+
+header a {
+    color: #fff;
+}
+
+.img_header {
+    width: 3%;
+    margin: 1%;
+}
+
+* {
+    font-family: Aeonik, -apple-system, -system-ui, system-ui, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-family: Avenir, sans-serif;
+}
+
+nav {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #552a86;
+    position: sticky;
+    top: 0px;
+    border-top-color: #fff;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    position: relative;
+}
+
+nav ul::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+    color: #fff;
+}
+
+nav a:hover {
+    font-weight: bold;
+    background-color: #5b3784;
+}
+
+.sous {
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+    color: #fff;
+}
+
+nav>ul li:hover .sous {
+    display: block;
+}
+
+.sous li {
+    float: none;
+    width: 100%;
+    text-align: left;
+    background-color: #552a86;
+    color: #fff;
+}
+
+.sous a {
+    padding: 10px;
+    border-bottom: none;
+    background-color: #552a86;
+    color: #fff;
+}
+
+.sous a:hover {
+    border-bottom: none;
+    background-color: RGBa(200, 200, 200, 0.1);
+}
+
+.deroulant>a::after {
+    content: " ▼";
+    font-size: 12px;
+    color: #fff;
+}
+
+.conteneur {
+    margin: 50px 20px;
+    height: 1500px;
+}

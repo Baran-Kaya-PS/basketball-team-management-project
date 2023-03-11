@@ -1,0 +1,107 @@
+/*-----------------------------------MENU MATCH-------------------------------------*/
+
+.list_page {
+    background-color: #eaeaea;
+    border-radius: 5px;
+    margin: 1%;
+    padding: 1%;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+td,
+tr {
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+}
+
+hr.rounded {
+    border-top: 3px solid #bbb;
+    border-radius: 5px;
+    margin: 1%;
+}
+
+button:hover {
+    background-color: white;
+    color: #552a86;
+}
+
+.photo {
+    width: 65px;
+    height: 50px;
+    border-radius: 134px;
+    border: solid black 2px;
+    margin: 2px;
+}
+
+button {
+    text-transform: uppercase;
+    width: 100%;
+    border: none;
+    padding: 12px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #603f85;
+    margin: 1px;
+    border-radius: 2px;
+}
+
+.bouton {
+    text-transform: uppercase;
+    width: 100%;
+    border: none;
+    padding: 12px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #603f85;
+    margin: 1px;
+    border-radius: 2px;
+}
+
+.bouton:hover {
+    background-color: white;
+    color: #552a86;
+}
+
+input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #fff;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+textarea {
+    width: 100%;
+    max-width: 100%;
+}
+
+
+/*------------------------------------------------------------------------*/
+
+.list_joueur th {
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    width: 20%;
+    text-align: left;
+}
+
+.list_joueur tr {
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    font-style: italic;
+}
+
+h3 {
+    padding: 2%;
+}
